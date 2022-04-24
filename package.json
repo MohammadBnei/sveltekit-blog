@@ -15,6 +15,7 @@
     "build:urara": "node urara.js build",
     "build:kit": "export NODE_OPTIONS=--max_old_space_size=8192 && svelte-kit build",
     "build": "npm-run-all -s build:urara build:kit clean",
+    "build:vercel": "VERCEL=true npm-run-all -s build:urara build:kit clean",
     "preview": "export NODE_OPTIONS=--max_old_space_size=8192 && svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
