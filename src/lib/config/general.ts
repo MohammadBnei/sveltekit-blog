@@ -67,7 +67,7 @@ export const footer: FooterConfig = {
     {
       text: 'Github',
       link: 'https://github.com/MohammadBnei',
-      dataTip: '🏵 /MohammadBnei 🏵'
+      dataTip: '🗄 /MohammadBnei 🗄'
     },
     {
       text: 'Linkedin',
