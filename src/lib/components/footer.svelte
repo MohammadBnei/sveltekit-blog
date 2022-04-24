@@ -15,8 +15,19 @@
   <div class="prose">
     <p>
       {#if footerConfig.nav}
-        {#each footerConfig.nav as { text, link }, i}
-          <a href={link} rel="noopener external" target="_blank">{text}</a>
+        {#each footerConfig.nav as { text, link, dataTip }, i}
+          {#if dataTip}
+            <a
+              href={link}
+              rel="noopener external"
+              class="tooltip tooltip-secondary hover:text-secondary"
+              data-tip={dataTip}
+              target="_blank">
+              {text}
+            </a>
+          {:else}
+            <a href={link} rel="noopener external" target="_blank">{text}</a>
+          {/if}
           {#if i + 1 < footerConfig.nav.length}
             <span class="mr-1">·</span>
           {/if}

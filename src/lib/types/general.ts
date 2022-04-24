@@ -33,6 +33,7 @@ export type FooterConfig = {
   nav?: {
     text: string
     link: string
+    dataTip?: string
   }[]
   html?: string
   since?: string

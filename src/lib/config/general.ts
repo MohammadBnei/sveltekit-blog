@@ -66,18 +66,20 @@ export const footer: FooterConfig = {
     },
     {
       text: 'Github',
-      link: 'https://github.com/MohammadBnei'
+      link: 'https://github.com/MohammadBnei',
+      dataTip: '🏵 /MohammadBnei 🏵'
     },
     {
       text: 'Linkedin',
-      link: 'https://www.linkedin.com/in/mbnei'
+      link: 'https://www.linkedin.com/in/mbnei',
+      dataTip: '🧳 /mbnei 🧳'
     }
   ]
 }
 
 export const date: DateConfig = {
   toPublishedString: {
-    locales: 'en-US',
+    locales: 'en-GB',
     options: {
       weekday: 'short',
       month: 'short',
@@ -85,7 +87,7 @@ export const date: DateConfig = {
     }
   },
   toUpdatedString: {
-    locales: 'en-US',
+    locales: 'en-GB',
     options: {
       year: '2-digit',
       weekday: 'long',
