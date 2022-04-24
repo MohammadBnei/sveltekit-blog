@@ -70,7 +70,7 @@ export const footer: FooterConfig = {
     },
     {
       text: 'Linkedin',
-      link: 'www.linkedin.com/in/mbnei'
+      link: 'https://www.linkedin.com/in/mbnei'
     }
   ]
 }
