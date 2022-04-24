@@ -63,6 +63,14 @@ export const footer: FooterConfig = {
     {
       text: 'Sitemap',
       link: '/sitemap.xml'
+    },
+    {
+      text: 'Github',
+      link: 'https://github.com/MohammadBnei'
+    },
+    {
+      text: 'Linkedin',
+      link: 'www.linkedin.com/in/mbnei'
     }
   ]
 }
