@@ -6,7 +6,7 @@ export const site: SiteConfig = {
   title: 'Bnei',
   subtitle: 'Developper, DevOps, Speaker',
   lang: 'fr-FR',
-  descr: 'Powered by SvelteKit/Urara',
+  descr: 'Blog & Portfolio | Mohammad-Amine BANAEI | Developper, Teacher',
   author: {
     name: 'Mohammad-Amine BANAEI',
     photo: '/assets/maskable@512.png',
