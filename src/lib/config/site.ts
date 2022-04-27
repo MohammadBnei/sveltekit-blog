@@ -6,7 +6,7 @@ export const site: SiteConfig = {
   title: 'Bnei',
   subtitle: 'Developper, DevOps, Speaker',
   lang: 'fr-FR',
-  descr: 'Blog & Portfolio | Mohammad-Amine BANAEI | Developper, Teacher',
+  descr: 'Blog & Portfolio | Mohammad-Amine BANAEI | Developper, DevOps, Teacher',
   author: {
     name: 'Mohammad-Amine BANAEI',
     photo: '/assets/maskable@512.png',
