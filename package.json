@@ -1,11 +1,8 @@
 {
-  "name": "urara",
+  "name": "sveltekit-blog",
   "version": "0.0.1",
   "license": "WTFPL",
-  "repository": "importantimport/urara",
-  "homepage": "https://github.com/importantimport/urara",
-  "bugs": "https://github.com/importantimport/urara/issues",
-  "author": "藍",
+  "homepage": "https://bnei.dev",
   "scripts": {
     "clean": "node urara.js clean",
     "rename": "node urara.js rename",
@@ -40,6 +37,7 @@
     "daisyui": "^2.14.2",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-svelte3": "^3.4.1",
     "fenceparser": "^2.0.0",
     "github-slugger": "^1.4.0",

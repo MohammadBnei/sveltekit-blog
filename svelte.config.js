@@ -7,6 +7,7 @@ import { mdsvex } from 'mdsvex'
 import mdsvexConfig from './mdsvex.config.js'
 import postcss from './postcss.config.js'
 
+// eslint-disable-next-line import/no-unused-modules
 export default /** @type {import('@sveltejs/kit').Config} */ {
   extensions: ['.svelte', ...mdsvexConfig.extensions],
   preprocess: [mdsvex(mdsvexConfig), preprocess()],
