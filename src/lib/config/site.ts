@@ -5,7 +5,7 @@ export const site: SiteConfig = {
   domain: (import.meta.env.URARA_SITE_DOMAIN as string) ?? 'bnei.dev',
   title: 'Bnei',
   subtitle: 'Developper, DevOps, Speaker',
-  lang: 'fr-FR',
+  lang: 'en-GB',
   descr: 'Blog & Portfolio | Mohammad-Amine BANAEI | Developper, DevOps, Teacher',
   author: {
     name: 'Mohammad-Amine BANAEI',
