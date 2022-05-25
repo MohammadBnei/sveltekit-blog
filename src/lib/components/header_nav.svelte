@@ -7,7 +7,7 @@
   export let pin: boolean
 </script>
 
-<div class="dropdown lg:hidden">
+<div class="dropdown lg:hidden bg-base-100">
   <label for="navbar-dropdown" tabindex="0" class="btn btn-square btn-ghost">
     <IconMenu />
   </label>
@@ -15,7 +15,7 @@
     id="navbar-dropdown"
     tabindex="0"
     class:hidden={!pin}
-    class="menu menu-compact dropdown-content bg-base-100 text-base-content shadow-lg rounded-box max-w-52 p-2">
+    class="menu menu-compact dropdown-content text-base-content shadow-lg rounded-box max-w-52 p-2">
     {#each nav as { text, link, children }}
       {#if link && !children}
         <li>
@@ -27,7 +27,7 @@
             {text}
             <IconChevronRight class="flex-none w-6 h-6 -mr-2" />
           </span>
-          <ul class="bg-base-100 text-base-content shadow-lg p-2">
+          <ul class="text-base-content shadow-lg p-2">
             {#each children as { text, link }}
               <li>
                 <a sveltekit:prefetch class:font-bold={link === path} href={link}>{text}</a>
@@ -51,7 +51,7 @@
           {text}
           <IconChevronDown class="flex-none w-6 h-6 -mr-1" />
         </span>
-        <ul class="bg-base-100 text-base-content shadow-lg p-2">
+        <ul class="text-base-content shadow-lg p-2">
           {#each children as { text, link }}
             <li>
               <a sveltekit:prefetch class:font-bold={link === path} href={link}>{text}</a>

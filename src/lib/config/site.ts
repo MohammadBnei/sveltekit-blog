@@ -11,9 +11,11 @@ export const site: SiteConfig = {
     name: 'Mohammad-Amine BANAEI',
     photo: '/assets/maskable@512.png',
     status: '🧑🏻‍💻',
-    bio: "Young independent developper, i have a passion for computers. I have acquired strong knowledge in fullstack and devops development. Since I graduated, i started teaching microservices' concepts and performance testing in multiple french schools. I enjoy traveling, boxing and reading."
+    bio: "Young independent developper, i have a passion for computers. I have acquired strong knowledge in fullstack and devops development. Since I graduated, i started teaching microservices' concepts and performance testing in multiple french schools. I enjoy traveling, boxing and reading.",
+    resume: '/CVBanaeiEN.pdf',
+    resumeFr: '/CVBanaei.pdf'
   },
-  themeColor: '#3D4451'
+  themeColor: '#3D4451',
 }
 
 export const dev: boolean = import.meta.env.DEV ? true : false

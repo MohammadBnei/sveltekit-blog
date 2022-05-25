@@ -21,7 +21,9 @@ export type SiteConfig = {
     pgp?: {
       text: string
       link: string
-    }
+    },
+    resume?: string;
+    resumeFr?: string;
   }
   /** for web app manifest only.
    * ```
