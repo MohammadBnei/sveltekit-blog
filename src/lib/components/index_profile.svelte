@@ -34,8 +34,8 @@
       <div class="dropdown dropdown-end dropdown-top self-end mt-2">
         <label tabindex="0" class="btn btn-secondary text-xs w-min">Download Resume</label>
         <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box mb-1">
-          <li><a href="resume/{site.author.resume}" download class="btn m-1 text-xs">English</a></li>
-          <li><a href="resume/{site.author.resumeFr}" download class="btn m-1 text-xs">French</a></li>
+          <li><a href="resume/{site.author.resume}" download class="btn btn-outline btn-secondary m-1 text-xs">English</a></li>
+          <li><a href="resume/{site.author.resumeFr}" download class="btn btn-outline btn-secondary m-1 text-xs">French</a></li>
         </ul>
       </div>
     {/if}
