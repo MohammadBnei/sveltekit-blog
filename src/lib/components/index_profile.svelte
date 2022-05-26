@@ -19,15 +19,17 @@
       {/if}
     </div>
   {/if}
-  <div class="flex-1 text-right my-auto">
-    <h2 class="text-3xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>
-    <p class="opacity-75 p-note">{@html site.author.bio}</p>
-    {#if site.author.pgp}
-      <a href={site.author.pgp.link} rel="pgpkey" class="btn btn-ghost btn-xs bg-base-300 font-mono rounded-full mt-4">
-        <IconKey class="inline-block w-4 h-4 mr-1" />
-        {site.author.pgp.text}
-      </a>
-    {/if}
+  <div class="flex flex-col">
+    <div class="flex-1 text-right my-auto">
+      <h2 class="text-3xl font-bold mt-0 mb-2 p-name">{site.author.name}</h2>
+      <p class="opacity-75 p-note">{@html site.author.bio}</p>
+      {#if site.author.pgp}
+        <a href={site.author.pgp.link} rel="pgpkey" class="btn btn-ghost btn-xs bg-base-300 font-mono rounded-full mt-4">
+          <IconKey class="inline-block w-4 h-4 mr-1" />
+          {site.author.pgp.text}
+        </a>
+      {/if}
+    </div>
     {#if site.author.resume}
       <div class="dropdown dropdown-end dropdown-top self-end mt-2">
         <label tabindex="0" class="btn btn-secondary text-xs w-min">Download Resume</label>
