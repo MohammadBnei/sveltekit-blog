@@ -41,7 +41,7 @@ Diplômé du cycle d'Ingénierie du Web à l'ESGI, niveau Bac + 5
 
 ## Développeur
 
-J'a pu exercer le metier de développeur lors de mes différentes alternances et apres obtention du diplôme pour l'entreprise que je monte : [Voc On Steroid](https://voconsteroid.com).
+J'a pu exercer le metier de développeur lors de mes différentes alternances, et aujourd'hui apres l'obtention de mon diplôme je me consacre à mon projet entreprenarial : [Voc On Steroid](https://voconsteroid.com).
 
 ### Fastory
 
