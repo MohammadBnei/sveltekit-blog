@@ -4,7 +4,7 @@ export const site: SiteConfig = {
   protocol: 'https://',
   domain: (import.meta.env.URARA_SITE_DOMAIN as string) ?? 'bnei.dev',
   title: 'Bnei',
-  subtitle: 'Developper, DevOps, Speaker',
+  subtitle: 'Developper, Teacher, DevOps',
   lang: 'en-GB',
   descr: 'Blog & Portfolio | Mohammad-Amine BANAEI | Developper, DevOps, Teacher',
   author: {
@@ -15,7 +15,7 @@ export const site: SiteConfig = {
     resume: 'CVBanaeiEN.pdf',
     resumeFr: 'CVBanaei.pdf'
   },
-  themeColor: '#3D4451',
+  themeColor: '#3D4451'
 }
 
 export const dev: boolean = import.meta.env.DEV ? true : false
