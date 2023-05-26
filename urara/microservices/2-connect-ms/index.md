@@ -18,7 +18,7 @@ Before proceeding with the tutorial, we need to install the following:
 
 - Node.js (v12 or higher)
 - NestJS CLI (`npm i -g @nestjs/cli`)
-- Finished [this tutorial](/microservices/nestjs-grpc)
+- Finished [this tutorial](/microservices/1-nestjs-grpc)
 
 ## Step 1 - Create a NestJS module for UserService
 
