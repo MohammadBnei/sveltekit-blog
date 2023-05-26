@@ -22,3 +22,5 @@ The user-api microservice provides functionalities related to user management an
 All microservices communicate using gRPC communication protocol, and the project also implements distributed tracing using Jaeger. Moreover, the system is containerized using Docker, and it can be easily set up using Docker Compose.
 
 The project also features SSL configuration using mkcert and includes an example .env file to set up the frontend. Overall, this project serves as a good example to learn about microservices, distributed tracing, SSL configuration, and dockerization.
+
+For all of the tutorials, you will need to have setup the project and finished the [readme](https://github.com/MohammadBnei/grpc-task-manager/blob/main/Readme.md).

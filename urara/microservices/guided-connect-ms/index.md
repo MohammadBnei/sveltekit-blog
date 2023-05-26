@@ -1,3 +1,13 @@
+---
+title: Tutorial w/ exercice - NestJS gRPC connection
+date: 2023-05-26
+tags:
+  - nestjs
+  - nodejs
+  - gRPC
+  - microservices
+---
+
 # Implementing gRPC client in NestJS
 
 gRPC is a high-performance and light-weight protocol to build distributed systems, and NestJS is a progressive Node.js framework for building efficient, scalable, and maintainable web applications. By integrating gRPC with NestJS, we can create microservices that can communicate with each other efficiently. In this tutorial, we will see how to implement a gRPC client in NestJS.
@@ -8,7 +18,7 @@ Before proceeding with the tutorial, we need to install the following:
 
 - Node.js (v12 or higher)
 - NestJS CLI (`npm i -g @nestjs/cli`)
-- Finished [this tutorial](./Guided-Nestjs-gRPC.md)
+- Finished [this tutorial](/microservices/guided-nestjs-gRPC)
 
 ## Step 1 - Create a NestJS module for UserService
 
@@ -147,7 +157,7 @@ Now that our user api is ready to be called, our hero can be assigned to a user 
 3. Add the user_id to the prisma schema
 4. Run a migration
 5. When a hero is created, check if the user exists. If not, throw an error. 
-   1. For this, you'll need to have the whole stack running and the port exposed. Modify the [compose.published.yml](../../compose/compose.published.yml) by uncommenting the port mapping of each api. Pass all insecure flag to true.
+   1. For this, you'll need to have the whole stack running and the port exposed. Modify the `compose/compose.published.yml` by uncommenting the port mapping of each api. Pass all insecure flag to true.
    2. To generate a jwt, you can use postman and the login route. Each token is valid 5 minutes, but you'll get a jwt to regenerate it. 
    3. Add the jwt to the metadata 'Authorization', with the following interpolation : `Bearer <JWT>`
 6. Don't forget to put the correct user url in `grpc.config.ts`.
